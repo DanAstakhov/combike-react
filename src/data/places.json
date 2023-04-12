@@ -1,0 +1,62 @@
+[
+  {
+    "id": "315-11",
+    "address": "3605 Rue de la Montagne, Montréal, QC H3G 2M1",
+    "bikes": 12,
+    "slots": 24
+  },
+  {
+    "id": "315-12",
+    "address": "1255 Crescent St, Montreal, Quebec H3G 2B1",
+    "bikes": 11,
+    "slots": 16
+  },
+  {
+    "id": "315-13",
+    "address": "1517 Pine Ave W, Montreal, Quebec H3G 1B3",
+    "bikes": 17,
+    "slots": 32
+  },
+  {
+    "id": "315-14",
+    "address": "Place Ville Marie, Montreal, Quebec H3B 2B6",
+    "bikes": 9,
+    "slots": 41
+  },
+  {
+    "id": "315-15",
+    "address": "3801 Rue University, Montréal, QC H3A 2B4",
+    "bikes": 3,
+    "slots": 24
+  },
+  {
+    "id": "315-16",
+    "address": "Montreal, Quebec H2X 1J5",
+    "bikes": 8,
+    "slots": 22
+  },
+  {
+    "id": "315-17",
+    "address": "Montreal, QC H2Z 1K4",
+    "bikes": 9,
+    "slots": 18
+  },
+  {
+    "id": "315-18",
+    "address": "Montreal, QC H3B 4W5",
+    "bikes": 18,
+    "slots": 34
+  },
+  {
+    "id": "315-19",
+    "address": "2313 Saint-Catherine St W #101, Montreal, Quebec H3H 1N2",
+    "bikes": 9,
+    "slots": 24
+  },
+  {
+    "id": "315-20",
+    "address": "3100 The Boulevard, Montréal, QC H3Y 1R9",
+    "bikes": 19,
+    "slots": 24
+  }
+]

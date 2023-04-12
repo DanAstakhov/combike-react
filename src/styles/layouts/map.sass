@@ -1,0 +1,64 @@
+@import "../variables/colors"
+@import "../variables/vars"
+@import "../variables/mixins"
+@import "../tools/breakpoints.sass"
+
+.main-buttons
+  position: absolute
+  bottom: 40px
+  left: 10%
+  right: 10%
+  z-index: 9
+  display: flex
+  justify-content: space-between
+  & > .btn
+    &:first-child
+      opacity: 0
+      z-index: 0
+
+.mapboxgl-ctrl-bottom-left
+  left: 10%
+  z-index: 9999
+  .mapboxgl-ctrl-group
+    background: transparent
+    box-shadow: none !important
+    .mapboxgl-ctrl-geolocate
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      position: relative
+      line-height: 1 !important
+      white-space: nowrap
+      vertical-align: middle
+      user-select: none
+      text-decoration: none !important
+      box-sizing: border-box
+      max-width: 100% !important
+      transition-duration: .2s
+      width: 60px
+      height: 60px
+      border-radius: 50% !important
+      background-color: $white !important
+      box-shadow: $shadow-0
+      .mapboxgl-ctrl-icon
+        background: none !important
+        position: relative
+        &:after
+          content: '\e908'
+          font-family: $font-icon
+          font-size: $text-26
+          transition-duration: .2s
+          color: $grey-2
+          position: absolute
+          +abs-center
+      &:hover,
+      &:focus,
+      &:active
+        .mapboxgl-ctrl-icon
+          &:after
+            color: $theme-1
+
+.mapboxgl-ctrl-logo,
+.mapboxgl-ctrl-bottom-right
+  opacity: 0 !important
+

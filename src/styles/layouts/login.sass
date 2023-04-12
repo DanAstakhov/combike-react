@@ -1,0 +1,27 @@
+@import "../variables/colors"
+@import "../variables/vars"
+@import "../variables/mixins"
+@import "../tools/breakpoints.sass"
+
+.login
+  background-color: $white
+  height: 100%
+  &-wrap
+    position: relative
+    top: 30%
+    transform: translateY(-50%)
+    padding: 25px
+  &-title
+    margin-bottom: 20px
+    span
+      font-weight: $fw-bold
+      color: $dark-1
+      font-size: $text-24
+  &-element
+    margin-bottom: 20px
+  +breakpoint(m)
+    padding: 25px
+
+.login-panel
+  .search-panel-close
+    box-shadow: none
